@@ -1,0 +1,83 @@
+
+WHAT is the Method?
+ Method in Java is a block of code(group of Java statements). It defines behavior of a class.
+
+WHY should we use Method?
+  1)It helps us remove the duplicate code from our application.
+  2)We just create a method and every time we need that logic we just call the method that contains the logic.
+  3)It also allows to write the code in the form of modules which makes the development of large applications easier.
+
+HOW to use Methods?
+  1)First we create a method inside the class
+  2)We create the object of that class
+  3)We call the method by writing the name of the object, a dot and name of the Method
+
+  class Calculator{
+
+
+  void add(int x, int y) {
+System.out.println(x+y);
+  }
+
+  }
+
+  public static void main(String[] args){
+
+  Calculator md=new Calculator();
+md.add(10,20);
+  }
+
+RULES how to create and use METHODS:
+  void add(int x, int y) {
+  System.out.println(x+y);
+   }
+
+
+  method ---> Return type it is a MUST if you want to return a specific data write the name of that data type
+           like for integer write int, for string we write String, if we don't want to return anything we write "void".
+           When we write void we can't assign method call to a variable
+  add ---> Next we write the name of the method which can be anything but should follow rules of giving names to variables
+  () ---> We specify the parameters here , we can pass any data type  inside this parenthesis;
+          They are optional , we can leave them empty;
+
+   {System.out.println(x+y);} --> The body of the method that contains the Java statement
+
+
+   ==================================================================================================================
+Types of Variables in Java
+
+There are 3 Types of variables:Local, Instance, Static.
+Local:
+  if variable is inside method(or a part of its parameters), in a loop or switch statement, or in if else condition
+  it is called local Variable.
+
+Instance:
+  if a variable is inside a class but outside any block of code (like method, loop, switch or if statement) it is called
+  an Instance variable.
+
+Static:
+  if an instance variable has a "static" keyword with it then it is called Static variable.
+
+
+
+WHY to learn about different types of variables?
+  1)It helps us to reduce us amount of RAM that our application will be using when it will be running.
+  2)With the help of these variables we can pass information between methods of class.
+  3)Local variables occupy the memory of the shortest period of time and as soon your method is done executing they are destroyed
+    by special program called garbage collector
+
+HOW to use them?
+ LOCAL: create inside block of code
+ (pros: they occupy the memory for the shortest period of time, always try to use local variables when possible)
+ (cons: they are very limited in scope, means we can't access them outside of method or that particular block of code)
+
+  Instance: create a variable  inside a class but outside any block of code .
+  (pros: they have broader scope as compared to local variables, means we can access in all methods of that class)
+  (cons: they occupy space in your RAM for longer periods of time)
+
+  STATIC:
+  (pros:we can call static variables without creating an object of a class
+        we can share a single variable between all the objects of a class)
+
+***always prefer local variables***
+
