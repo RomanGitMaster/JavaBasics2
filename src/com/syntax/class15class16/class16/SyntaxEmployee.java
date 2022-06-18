@@ -7,7 +7,14 @@ public class SyntaxEmployee {
     void showInfo(){
         System.out.println("Employee with ID number "+empID+ " has salary of "+salary+" and with "+ceo+" as CEO");
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
+    /*
+Create a Class called SyntaxEmployee:
+Create three  variables  empID , salary and set the CEO to “Sumair”
+Create two objects of the class SyntaxEmployee
+Set the value of eID, salary for each of the objects
+Print out the eID , salary and  CEO for each of the objects
+         */
         SyntaxEmployee emp1=new SyntaxEmployee();
         emp1.empID=1234;
         emp1.salary=158000;

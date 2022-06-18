@@ -1,0 +1,55 @@
+Constructor:
+   It is a special type of method which is used to initialize the object.
+   In Java, a constructor is a block of codes similar to the method. It is called when an instance of the
+   class/object is created, and memory is allocated for the object.
+
+Why should we use the constructor?
+  1)For cleaner and more readable code.
+  2)If the fields of a class are private it's not possible to access them outside a class without constructor or method
+    which means we can't initialize them without a method or a constructor.
+  3)we can enforce rules like what kind of values are assigned to variables with the help of a constructor.
+  4)If we want to make sure some lines of code should be always executed when object of a class is created we can put that
+    code inside the constructor.
+
+How to use constructor:
+   When we create constructors inside the class and when an object of that class is created the constructor
+   is executed automatically
+
+   class Car{
+   String make;
+   String model;
+
+   Car(String carMake,String carModel){
+   make=carMake;
+   model=carModel;
+   }
+   void display(){
+   System.out.println(make+model)
+   }
+   public static void main(String[] args){
+   Car bmw=new Car("BMW","M4");
+   bmw.display
+   }
+   }
+
+
+Rules to declare constructor:
+1) Constructor not allowed any return type even void.
+2) Constructor name class name must be same.
+3) Constructors can't be created with a static keyword
+4) We can use any access modifiers with Constructors.
+5) If we don't create a constructor in a class a default constructor will be created by compiler.
+   Takes the code written by us, and it converts that code to byte code which is easier to understand for Java
+
+There are two types of Constructor: Non argument, Parameterized.
+   No argument constructor is used when we want to get specific method, without getting all like with Parameterized.
+   No argument gives flexibility to getting what we want without getting extra data.
+   No argument constructor can be used once per class.
+
+This. keyword:
+  1)We can use this. keyword to access the instance variables when we have same named variables in your method or
+   constructor of any block of code.
+   2)This. can also be used to call a constructor to use it's already present variables.
+   3)Why we use it --> it help us reuse already written constructors contains same code
+   4)Why we want to create multiple constructor in the first place--> we want to give end user flexibility that he
+   can create the objects of our class in may different ways

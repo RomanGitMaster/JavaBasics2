@@ -1,0 +1,40 @@
+Types of variables in Java:
+   We have 3 types of variables:
+Local:
+    Are the variables that we declared inside a block
+    pros:they occupy the memory for shortest period of time
+    cons: they can't be accessed outside that block in which they are created
+Instance:
+    Are the variables that are declared inside a class but outside of the block of code
+    pros: can be accessed in all the methods of a class, they can have different values for each instance of that class
+    cons:
+Static:
+    All the variables which are defined outside a block of code with static keyword are called static variables
+    pros: they reserve only a single memory location for all instances of a class
+          they can be accessed.
+          they have the highest scope and accessibility.
+    cons: they always store only one value for all objects of the class.
+          they occupy the memory for longest period of time
+Real life use:
+    Most of th time you will be storing constant values in static variables.
+    Static is also used heavily with methods that don't involve instance variables.
+---------------------------------------------------------------------------------------------------------------------
+Access modifiers:
+   There are 3 access modifiers keywords( private protected public) and 4 access modifiers levels( private
+   protected, default, public)in Java.
+Rules:
+   Access modifiers can only be used with instance and static members of a class( fields and methods)
+
+Private:
+    when we use private with any method or variable we can only access that method or variable in that class.
+
+Default(its not a keyword):
+     when we don't use any access modifier keyword with a field or method then default access is applied by Java
+     which mean we can access this variable or method inside the same as well as in all the other
+     classes which exist inside same package.
+Public:
+    We can use that filed or method anywhere inside the same project( in any packages, any classes)
+Real Life Use:
+    99% of the time instance fields are  private.
+    99% of the time instance and static methods are public.
+----------------------------------------------------------------------------------------------------------------------

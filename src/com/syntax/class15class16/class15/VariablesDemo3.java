@@ -12,15 +12,19 @@ public class VariablesDemo3 {
         v2.name="Jason";
         VariablesDemo3 v3=new VariablesDemo3();
         v3.name="Mumtaz";
+        VariablesDemo3 v4=new VariablesDemo3();
+//before resigning
 
         System.out.println(v1.name);
-        //System.out.println(v1.num);
-
+        System.out.println(v1.num);
+//after resigning
         v1.num=10;
-        v1.name="Sameer";// we cant do the same to object ...?
+        v1.name="Sameer";
 
         System.out.println(v2.name);
         System.out.println(v2.num);
+        System.out.println(v1.name);
+
     }
 }
 

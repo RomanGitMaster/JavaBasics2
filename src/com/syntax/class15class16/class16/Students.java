@@ -8,6 +8,14 @@ void printNumOfStudents(){
     System.out.println("Total number of all students is "+numOfStudents);
 }
     public static void main(String[] args) {
+    /*
+Create a Class called Students
+Create three  variables  Name , ID  and  numberOfStudents
+Create three objects of the Students Class
+Set the value for  studentName , studentID and increment  the numberOfStudents for each object
+Print out  total number of students
+
+     */
         Students st1=new Students();
         st1.name="Jack Sparrow";
         st1.id=3785;
