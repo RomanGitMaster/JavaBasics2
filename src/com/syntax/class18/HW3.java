@@ -13,6 +13,7 @@ private static String onlyVowels(String str) {
         }
 
     }
+    //or return str.replaceAll("[^aeiou]", "");
     return vowels;
 }
     public static void main(String[] args) {

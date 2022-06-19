@@ -14,6 +14,7 @@ HW4Pirate(){}
   this.weapon=weapon;
   this.real=real;
    }
+
 void display(){
     System.out.println("Pirate "+pirate+" sails on "+ship+" ship, fights with "+weapon+" and he is a "+real+" pirate!");
 }

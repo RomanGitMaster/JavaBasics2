@@ -11,5 +11,6 @@ public class HW4Test {
         pirate2.weapon = "broadsword";
         pirate2.real = true;
         pirate2.display();
+
     }
 }
