@@ -40,7 +40,6 @@ How we can use inheritance:
    2) Put all the common methods and properties from children classes inside that parent class.
    3) Use EXTENDS keyword to inherit from parent class
 
-   Types of Inheritance:
-Rules:
+   Rules:
 1)Private fields and private methods cannot be inherited inside the children classes.
 2)Constructor cannot be inherited
