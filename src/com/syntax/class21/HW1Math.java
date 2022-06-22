@@ -11,7 +11,7 @@ Box
 Use separate class to test your code
      */
     static void area(int l){
-        System.out.println("Area of the squere is "+(l*l));
+        System.out.println("Area of the square is "+(l*l));
     }
     static void area(int l,int w){
         System.out.println("Area of the rectangle is "+(l*w));
