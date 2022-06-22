@@ -1,0 +1,42 @@
+what is super keyword:
+   Is used to refer to the parent class object.
+why should we learn about super keyword?
+   1) if we have same name variable or method int the parent/super/base class then we can use the super keyword to refer
+   to parent class variable or method because by default java prefers the variables of child class. We can call the super class
+   constructor with the help of super with parenthesis super();
+
+How to use super keyword:
+   1) we can use super. method name or field name to call the method or access field of super class.
+   2) we can also use the super with parenthesis to call the super class constructor.
+
+Rules:
+   1) we can only access the immediate parent class constructor or field or method with the help of super keyword.
+   2) we can only use super() inside a constructor
+   3) if we have a  user created constructor in parent class we must have a matching  paremeter constructor inside
+     the child as well.
+   4) if we have multiple constructors inside the parent as soon as one is matched we are good to go.
+      We don't need to match each and every constructor from the parent class
+   5) super () should be the first line inside the constructor
+
+
+=======================================================================================================================
+Important
+ Arrays
+ Loops
+ If else Conditions
+ Object and Classes
+ Methods
+ String class
+
+ ======================================================================================================================
+WHat is MethodOverLoading?
+    When same name method in a class but with different number of parameters or different type of parameters or different
+    sequence of parameters it is called methodOverLoading
+Why we should use method overloading?
+    1) Makes your code more readable.
+    2) Makes the life of the end users easy they don't have to memorize many method names.
+How can we use MethodOverLoading?
+    We can have same method name, but we have to follow below rules:
+    1) by passing different numbers of parameters;
+    2) we can change data type;
+    3) we can also overload a method by changing the sequence of parameters;

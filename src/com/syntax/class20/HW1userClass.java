@@ -17,7 +17,7 @@ class userInfo extends HW1userClass{
     String userAddress;
     userInfo(String name,String mobileN,String userAddress){
         super(name,mobileN);
-        this.userAddress=userAddress;
+        this.userAddress=userAddress;// always must be after super () line
     }
     void userDetails(){
         System.out.println(name+" "+mobileN+" "+userAddress);
