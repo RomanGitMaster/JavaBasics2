@@ -1,0 +1,16 @@
+What is MethodOverriding:
+   -Happens when same method exists inside the parent class and the child class.
+Why we should override a method:
+   -If we are inheriting from a parent class, and we don't like the implementation of a method from the parent class we
+    can provide our own implementation.
+   -Sometimes its done to improve the performance of code.
+How we can override a method:
+   -When we inherit from a class we just need to rewrite that method inside child class( numbers of parameters, data type...
+   everything has to be the same, only the body and access modifiers can be changed)
+Rules:
+1) For Override we must inherit from a class.
+2) The method int the parent class that we want to override must be exactly the same as method in the child class only
+   the access modifiers can be different
+3) The access modifiers in the parent class can only be increased with respect to visibility for example we can
+   change default to protected or to public, but we can't make it private
+4) If something is not inherited we cant override it for example private methods and constructors.

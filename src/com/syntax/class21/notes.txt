@@ -40,3 +40,11 @@ How can we use MethodOverLoading?
     1) by passing different numbers of parameters;
     2) we can change data type;
     3) we can also overload a method by changing the sequence of parameters;
+method that will include as many parameters as we want is:
+
+static void sum(int...arr){
+System.out.println(arr[0]);
+}
+psvm{
+sum(2,3,4,5);<===== no matter how many we put "..." dots will add parametrs
+}

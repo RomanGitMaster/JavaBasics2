@@ -8,7 +8,7 @@ public class HW4Pirates {
         System.out.println("5 pirate on a deck "+" with "+str);
     }
     private void pirates(String str,String str1){
-        System.out.println("5 pirate on a deck "+" with "+str+" and with "+str1);
+        System.out.println("5 pirates on a deck "+" with "+str+" and with "+str1);
     }
 
     public static void main(String[] args) {

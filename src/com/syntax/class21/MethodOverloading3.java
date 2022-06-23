@@ -1,7 +1,7 @@
 package com.syntax.class21;
 
 public class MethodOverloading3 {
-// Java check for how many parameters,data types, names of variables, and sequence of parameters and then selects
+// Java check for how many parameters,data types and sequence of parameters and then selects
 // the method even all methods have the same name.
     void method(){
         System.out.println("1");
