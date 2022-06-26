@@ -11,6 +11,7 @@ Call the method by creating an object of each of the three classes.
     double balance;
     double interestRate;
 
+
     HW2CreditCard(double balance, double interestRate) {
         this.balance = balance;
         this.interestRate = interestRate;

@@ -16,7 +16,7 @@ public class AnotherClass138 {
         return str;
     }
 }
-    class Main {
+    class Main1 {
         public static void main(String[] args){
             System.out.println(AnotherClass138.methodD());
             System.out.println(AnotherClass138.methodPr());

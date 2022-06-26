@@ -2,7 +2,7 @@ What is MethodOverriding:
    -Happens when same method exists inside the parent class and the child class.
 Why we should override a method:
    -If we are inheriting from a parent class, and we don't like the implementation of a method from the parent class we
-    can provide our own implementation.
+    can provide our own implementation, to improve efficiency
    -Sometimes its done to improve the performance of code.
 How we can override a method:
    -When we inherit from a class we just need to rewrite that method inside child class( numbers of parameters, data type...
@@ -13,4 +13,21 @@ Rules:
    the access modifiers can be different
 3) The access modifiers in the parent class can only be increased with respect to visibility for example we can
    change default to protected or to public, but we can't make it private
-4) If something is not inherited we cant override it for example private methods and constructors.
+4) If something is not inherited we can't override it for example private methods and constructors.
+5) if a method is static we use a different terminology its called method redeclaration instead of overriding
+
+Example:
+class Parent{
+ void eat(){
+ System.out.println("I like to eat beef");
+ }
+ void sleep(){
+  System.out.println("I like to sleep 8 hours a day");
+ }
+ }
+ class Child extends Parent{
+ void eat(){<----we overriding this method
+  System.out.println("I like to eat Mutton");
+  }
+
+ }
