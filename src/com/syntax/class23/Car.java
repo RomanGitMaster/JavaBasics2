@@ -45,7 +45,7 @@ class Toyota extends Car{
 class CarTester{
     public static void main(String[] args) {
       /*  Car car=new Tesla();//<---- we can do this, we can store object of child class in parent class if it overrides it
-        car=new Toyota();// its just resigning , shortcut not ot retype info
+        car=new Toyota();// its just resigning , shortcut not to retype info
         car.start();
 
        */

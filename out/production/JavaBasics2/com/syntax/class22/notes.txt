@@ -6,7 +6,7 @@ Why we should override a method:
    -Sometimes its done to improve the performance of code.
 How we can override a method:
    -When we inherit from a class we just need to rewrite that method inside child class( numbers of parameters, data type...
-   everything has to be the same, only the body and access modifiers can be changed)
+   everything has to be the same, only  access modifiers can be changed)
 Rules:
 1) For Override we must inherit from a class.
 2) The method int the parent class that we want to override must be exactly the same as method in the child class only

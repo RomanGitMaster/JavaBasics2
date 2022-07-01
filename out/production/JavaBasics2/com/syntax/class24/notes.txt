@@ -1,0 +1,14 @@
+========================================================================================================================
+What is Abstraction?
+   Abstraction is providing only the neccessary details and hiding all the implementation details.
+
+WHy should we learn Abstraction?
+   1) it reduces the complexity by separating the idea from implementation;
+   2) it helps us enforce rules and convey our requirements;
+How can we use abstraction?
+   1) create classes with abstract keyword.
+   2) use abstract keyword with method header and don't provide the body of that method inside the parent class.
+   3) create child classes and extend those classes from a parent class and implement the abstract methods.
+   4) if we don't want to provide implementation one or more methods we can declare the child class as abstract as well
+
+

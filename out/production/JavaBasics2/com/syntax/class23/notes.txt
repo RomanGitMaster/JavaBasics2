@@ -1,4 +1,30 @@
 POLYMORPHISM
 
 What is Polymorphism?
+   Is the ability of a method to behave differently depending upon the object or parameters that we pass to a method.
+   When we pass different parameters to a method and it behaves differently then Static Polymorphism or Compile Time
+   or Early Binding.
+   When we achieve the Polymorphism through method overriding then it is called Dynamic or Run Time Polymorphism
+   or Late Binding.
+
+Why we should use Polymorphism?
+   1) cleaner code.
+   2) reliability; we never prefer to change the existing code if we want to improve something we always want to create
+      new methods and new classes. We can call these methods using the parent classes/preference.
+   3) we can call multiple methods from many classes with the help of a single variable. Like we can create the array
+    of objects and with help of loop will be able to call all the methods from all the classes.
+
+How can we use Polymorphism:
+   1) Create a parent child relationship.
+   2) Override the methods in the child classes.
+   3) Create array of all child classes objects and with help of loop you call all the methods from all the child classes
+
+Rules:
+   1) All the rules that apply for overriding also apply for the Polymorphism.
+   2) We can store the object of a child class inside a variable of type parent class, but we cannot do the reverse
+   3) We can create arrays of type parent, and they can hold the objects of child classes.
+========================================================================================================================
+
+
+
 
