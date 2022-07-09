@@ -3,6 +3,8 @@ package com.syntax.class26;
 import java.util.ArrayList;
 
 public class Demo8 {
+
+    // addAll(arraylist name) to add all ellements from another arraylist
     public static void main(String[] args) {
 
 

@@ -6,13 +6,13 @@ public class Demo1 {
     public static void main(String[] args) {
         String name="Aladdin";
         String name2="Abu";
-        String name3="Gynie";
+        String name3="Genie";
 
-        String []names={"Aladdin","Abu","Gynie"}; // storing names by use of string
+        String []names={"Aladdin","Abu","Genie"}; // storing names by use of string
         names=new String[4];
         names[0]="Aladdin";
         names[1]="Abu";
-        names[2]="Gynie";
+        names[2]="Genie";
         names[3]="Sultan";
         //System.out.println(names.length);
 
