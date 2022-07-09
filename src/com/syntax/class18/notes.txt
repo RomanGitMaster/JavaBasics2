@@ -50,6 +50,6 @@ This. keyword:
   1)We can use this. keyword to access the instance variables when we have same named variables in your method or
    constructor of any block of code.
    2)This. can also be used to call a constructor to use it's already present variables.
-   3)Why we use it --> it help us reuse already written constructors contains same code
+   3)Why we use it --> it helps us reuse already written constructors contains same code
    4)Why we want to create multiple constructor in the first place--> we want to give end user flexibility that he
    can create the objects of our class in may different ways

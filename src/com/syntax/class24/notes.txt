@@ -1,14 +1,25 @@
 ========================================================================================================================
 What is Abstraction?
-   Abstraction is providing only the neccessary details and hiding all the implementation details.
+   Abstraction is providing only the necessary details and hiding all the implementation details. Its the third pillar
+    of OOPs
 
 WHy should we learn Abstraction?
    1) it reduces the complexity by separating the idea from implementation;
    2) it helps us enforce rules and convey our requirements;
 How can we use abstraction?
+(We can use abstraction in our code with the help of abstract classes and interfaces)
    1) create classes with abstract keyword.
    2) use abstract keyword with method header and don't provide the body of that method inside the parent class.
    3) create child classes and extend those classes from a parent class and implement the abstract methods.
    4) if we don't want to provide implementation one or more methods we can declare the child class as abstract as well
 
-
+   Rules:
+    1) Abstract methods can't have a body.
+       2) As soon as we have one abstract method in a class that class must be declared as abstract.
+       3) once a class inherit from an abstract class that class must implement the abstract methods
+       or it should be marked as abstract.
+       4) we can have normal methods with body and abstract methods inside a class.
+       5) We can't create the objects of abstract classes.
+       6) abstract classes can't be declared final classes.
+       7)We can have everything inside an abstract class that we can have in a normal class
+       only thing that differs is we can't create the object of that class.

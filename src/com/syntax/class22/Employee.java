@@ -20,6 +20,7 @@ class Manager extends Employee{
     void calculatePrintSalary(){
         System.out.println(baseSalary*3+20000);
     }
+    @Override
     void calculatePrintHolidays(){
         System.out.println(baseHolidays*3);
     }
@@ -29,6 +30,7 @@ class QA extends Employee{
     void calculatePrintSalary(){
         System.out.println(baseSalary*2+20000);
     }
+    @Override
     void calculatePrintHolidays(){
         System.out.println(baseHolidays*3+50000);
     }

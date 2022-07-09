@@ -22,7 +22,7 @@ System.out.println(person) //we will get an error because right now "person" is 
 Instance Variables:(object level)
   -They are created inside of class but outside the block of code.
   Pros:
-  -Accessible everywhere in a class in all blocks of code inside that class but not in a static method.
+  -Accessible everywhere in a class in all blocks of codes inside that class but not in a static method.
   Cons:
   -They keep occupying memory for longer period of type.
 

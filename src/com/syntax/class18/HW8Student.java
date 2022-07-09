@@ -15,5 +15,6 @@ public class HW8Student {
     public static void main(String[] args) {
         HW8Student st1=new HW8Student("Ali Ababua","Sahara Desert, Cave of Wonders 1");
         st1.displayInfo();
+        //new HW8Student("Ali Ababua","Sahara Desert, Cave of Wonders 1").displayInfo();
     }
 }

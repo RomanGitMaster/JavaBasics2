@@ -18,6 +18,6 @@ public class VariablesDemo1 {
         VariablesDemo1 v=new VariablesDemo1();
         v.printName();
         System.out.println(VariablesDemo1.num);//<---- to call static variable
-        VariablesDemo1.printName2();//<----to call static variable, by just writing name of that class
+        VariablesDemo1.printName2();//<----to call static method, by just writing name of that class
     }
 }

@@ -23,7 +23,7 @@ public class HW {
 class JavaFile extends File{
     @Override
     void open() {
-        System.out.println("to open .java file we need notepad++ or sublime text");
+        System.out.println("to open .java file we need Eclipse or Intellij");
     }
 }
 class WordFile extends File{
@@ -41,23 +41,23 @@ class  PdfFile extends File{
 class FileTester{
     public static void main(String[] args) {
 
-        File file= new JavaFile();
+        File file= new JavaFile();// == new JavaFile().open();
         file.open();
-        file.edit();
-        file.close();
+        //file.edit();
+        //file.close();
 
         System.out.println("=========================================================================================");
         File[]files={new JavaFile(),new WordFile(),new PdfFile()};
         for (int i=0;i<files.length;i++){
             files[i].open();
-            files[i].edit();
+           files[i].edit();
             files[i].close();
         }
         System.out.println("=========================================================================================");
         for (File newfile:files){
             newfile.open();
-            newfile.edit();
-            newfile.close();
+          //  newfile.edit();
+          //  newfile.close();
         }
 
     }

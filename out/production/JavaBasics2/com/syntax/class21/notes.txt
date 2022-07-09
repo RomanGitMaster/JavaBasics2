@@ -1,7 +1,7 @@
 what is super keyword:
    Is used to refer to the parent class object.
 why should we learn about super keyword?
-   1) if we have same name variable or method int the parent/super/base class then we can use the super keyword to refer
+   1) if we have same name variable or method in the parent/super/base class then we can use the super keyword to refer
    to parent class variable or method because by default java prefers the variables of child class. We can call the super class
    constructor with the help of super with parenthesis super();
 

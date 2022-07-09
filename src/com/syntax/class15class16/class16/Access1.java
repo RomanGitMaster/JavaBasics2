@@ -1,7 +1,7 @@
 package com.syntax.class15class16.class16;
 
 public class Access1 {
-    //Access Modifiers: Default,public,private and protected. AccessMods keywords
+    //Access Modifiers:private,default,protected, public. AccessMods keywords
     // we put in front of the variables or class or method.
 
 

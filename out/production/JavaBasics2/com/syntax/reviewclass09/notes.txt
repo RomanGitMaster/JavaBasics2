@@ -1,0 +1,82 @@
+What is OOP?
+   it is a way of writting a methodology a set of rules that we follow when we write code. In this methodology we create classes
+   and objects of those classes to represent everything from real life, and then we can write rules by using those methods.
+We also have :
+   1) functional programming
+   2) procedural programming
+
+
+What are Pillars of OOP?
+   1) Inheritance
+   2) Polymorphism
+   3) Abstraction
+   4) Encapsulation
+
+Some benefits of OOP:
+   1) code reusibility
+   2) cleaner code
+   3) more flexibility
+   4) less code
+   5) enforcing rules and hiding the complexity and only focusing on ideas
+   6) secure code
+
+1. Inheritance
+   - This is a mechanism in Java which a class can acquire the properties and methods of another class.
+
+   Why should we use inheritance?
+   - If a piece of code is already present in a class instead of rewriting it or copying it we can extend our class from
+   that class, and we will get all the non-private methods and fields from that class. It can save a lot of time. Its
+   also good for performance reasons
+
+   Disadvantages of Inheritance:
+   1) We get the unwanted code as well when we inherit from a class.
+   2) Classes are  tightly coupled, if we change something in parent class it will affect all the child classes.
+   RULES:
+   1) Inheritance is one way from parent to child
+   2) In Java we can't inherit from multiple classes
+   3) final classes can't be inherited. Classes which are declared with final keywords are called final classes
+   4) private members(attributes and methods) are not inherited.
+   5) constructors are not inherited, but we can call them using super().
+   6) child classes must provide a matching constructors.
+   TYPES of INHERITANCE:
+   - Single
+   - Multilevel
+   - Hierarchical
+   - Multiple(not supported in Java)
+
+Single inheritance:
+   Only one parent AND one child
+
+Multilevel inheritance:
+   inheritance where child classes inherit from each other all the way down
+
+Hierarchical inheritance:
+   when we have a single Parent class and multiple direct child classes it is called Hierarchical
+=======================================================================================================================
+Super Keyword:
+    Super is a keyword that we use to refer to the parent class fields methods or constructors.
+Why should we use super keyword:
+    1) if we have same name fields inside the parent class and child class we can use the super keyword.
+    to distinguish these fields. It's not that common
+    2) we can use the super() to call the constructor of the parent class as they are not inherited.
+    3) If we have same name methods inside the parent and the child class we can use super keyword
+    to call the method from the parent class.
+
+=======================================
+Method Overloading:
+    whenever same name method exists in a class with different parameters we call it method
+    overloading.
+
+Why we should use MethodOverloading:
+    it helps us write cleaner and more readable code and also provides the flexibility to have
+    same name methods in a class.
+How to create an overloaded method:
+    create same method name but make sure this differs in the number of parameters or in types of
+    parameters or in sequence of parameters.
+
+Rules:
+    1)Method name should be same but parameters should be different.
+    2)By just changing the return type we can't overload a method.
+    3)We can't overload by just changing the access modifiers(private,default,protected,public)
+     and non-access modifiers(final static and abstract).
+    4)We can also overload constructor in the same manner as we do for methods.

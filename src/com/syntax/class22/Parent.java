@@ -6,7 +6,8 @@ public class Parent {
         System.out.println("hey Hammid we have found a girl for you , get mary to that girl");
     }
 }
-class Hamid {
+class Hamid extends Parent{
+    @Override
     void getMarried() {
         System.out.println("I want try Tara first");//if we dont use override super class method will be used with
                                                     //its values

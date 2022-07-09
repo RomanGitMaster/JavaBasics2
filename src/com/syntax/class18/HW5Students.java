@@ -41,6 +41,8 @@ public class HW5Students {
         s4.averageGrade();
         HW5Students s5 = new HW5Students("Sultan", 52, 48, 60);
         s5.averageGrade();
+
+
     }
 }
 
