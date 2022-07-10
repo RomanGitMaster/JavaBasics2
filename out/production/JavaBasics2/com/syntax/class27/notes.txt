@@ -1,0 +1,39 @@
+Collections Framework:
+ - Collections framework is just a collection of interfaces and classes that have many methods to store and manipulate real life
+ day to day date.
+
+Why should we learn Collection framework?
+ - CF contains the classes that have pre-built methods to store and manipulate the data. These methods are battle tested
+   (well tested , something we can use in production environment).
+
+How can we use the CF?
+ - They are the same classes just like any other class in Java. We create the object of the class and can start calling the methods
+   we just need to take care of diamond operators(angle brackets).
+   We put the name of a class inside the angle brackets<>whose objects we will be storing inside these classes,e.g.-
+   ArrayList<String>objName=new Arraylist<>();
+
+What are Wrapper Classes?
+ - They are special classes built to work with collections framework which are replicas of primitive data types but they
+ are classes means we can use them just like any other class.
+
+
+Boxing and unboxing in wrapper classes:
+ - When we convert a primitive to a non-primitive wrapper class like Integer we call it boxing. This conversion can happen
+ automatically, and we can also call explicit methods to convert primitives to non-primitives.
+ In the case of auto it's called auto boxing and in autoboxing we just assign the data, and it is converted automatically
+ while in simple we need to call a method to convert it.
+ Unboxing and Auto-Unboxing are simply the reverse of it.
+
+
+Downsides of CF:
+1) We need to use wrapper classes with collection framework, that occupy 4 times more memory compare to primitives
+2) As a tester we dont need to worry too much about these wrapper classes
+========================================================================================================================
+
+LIST is the first Interface we will be discussing from the Collection Framework:
+List:
+  1) we can store duplicates data;
+  2) insertion order is maintained.
+
+  ArrayList:
+  LinkedList:

@@ -31,7 +31,7 @@ public class Demo8 {
 //ctrl+c ---> select the whole line or shift +end (drop cursor at the beginning of the line first)
         ArrayList<String>allSubjects2=new ArrayList<>();
         allSubjects2.addAll(subjectsSeen);
-        allSubjects2.addAll(1,futureSubjects);//insert the data starting from index 1 and will push the existing data toward the end
+        allSubjects2.addAll(1,futureSubjects);//the  elements of arraylist we add will start from index 1 and will push the existing data toward the end
 
     }
 }
