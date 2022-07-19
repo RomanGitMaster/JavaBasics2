@@ -1,0 +1,50 @@
+Set Interface:( widely used to remove duplicates )
+   Set is a collection that cant contain duplicates. There are many types but we will discuss the most widely used ones,
+   which are:
+   1)HAshSet; 2)LinkedHashSet; 3)TreeSet;
+
+HashSet:
+   Upside: Most commonly used type of set it is fastest when it comes to insert and retrieve the data.
+   Downside: Insertion order is not maintained.(no get() method to get a single value)
+   NOTICE: to get elements we use  for each loop or iterator
+
+LinkedHashSet:
+   Upside: Insertion order is maintained.
+   Downside:Insertion speed is comparable to HashSet but the retrieval speed is the slowest( it has to go through many
+    connected memory nods thats why insertion speed is slow)
+
+TreeSet:
+   Upside: The data is stored in the sorted form( it means whenever we insert new value th sorting happens at the same moment,
+           which means insertion speed will be very slow, each element that we insert first have to locate it's proper position
+           where it should be stored )
+   Downside: Insertion speed is slow. Retrieval speed is better than LinkedHashSet, but slower than HashSet
+
+Note:
+Mostly used to remove duplicates.
+========================================================================================================================
+
+MAP:
+    Allows us to store key-value pairs( no data type restriction, we can use anything as key or value)
+    First entry is always threated as KEY and Second entry always threated as VALUE. Keys cant be duplicate but Values can.
+
+There are many types of Map Interface as sets but we will only discuss 3 of them:
+1) HashMap; 2)LinkedHashMap; 3)TreeMap;
+
+
+HashMap:(just like with HashSet)
+  Upside: it is fastest when it comes to insert and retrieve the data.
+  Downside: Insertion order is not maintained.
+
+LinkedHashMap:(just like with LinkedHashSet)
+  Upside: Insertion order is maintained.
+  Downside: Insertion speed is comparable to HashSet but the retrieval speed is the slowest( it has to go through many
+              connected memory nods thats why insertion speed is slow).
+
+TreeMap:(just like with TreeSet)
+  Upside: The data is stored in the sorted form( it means whenever we insert new value th sorting happens at the same moment,
+                     which means insertion speed will be very slow, each element that we insert first have to locate it's proper position
+                     where it should be stored )
+  Downside: Insertion speed is slow. Retrieval speed is better than LinkedHashMap, but slower than HashMap
+
+
+

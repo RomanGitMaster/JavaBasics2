@@ -36,4 +36,15 @@ List:
   2) insertion order is maintained.
 
   ArrayList:
+  LinkedList Class:
+  joining in a mint
+  Difference between ArrayList and LinkedList
+  ArrayList:
+      Upside:Retrieval(get operation) of elements is super Fast
+      DownSide:Adding elements in the middle or start will be very expensive.
   LinkedList:
+      Upside:whenever we have to insert the data randomly not at the last index we should be using
+      linkedList.
+      retrieval is super, super slow if the list is big.
+
+

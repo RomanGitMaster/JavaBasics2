@@ -4,7 +4,7 @@ interface DDR3{
     void write();
 
 }
-public interface DDR4 extends DDR3 { // extending interface to interface to receive all methods from previous interface
+public interface DDR4 extends DDR3 { // extending interface to receive all methods from previous interface
 
     void speed();
 }

@@ -8,8 +8,8 @@ public class ArrayListDemoA {
 
         //             -Elements can be added and removed after compilation phase.
         //             -Store  only reference data types(like String), with means  primitive data types won't work, and we will have
-        //                to use appropriate wrapper class (e.g. int ---> Integer, boolean--->Boolean, double--->Double
-        //             -You can add and remove the elements from ArrayList and ArrayList adjust its size automatically.
+        //                to use appropriate object of  wrapper class (e.g. int ---> Integer, boolean--->Boolean, double--->Double
+        //             -You can add and remove the elements from ArrayList and ArrayList will adjust its size automatically.
         //             -ArrayList can contain the duplicate elements.
 
         ArrayList<String> food=new ArrayList<>();

@@ -21,7 +21,7 @@ public class BankAccount {
         }
     }
     public void setUsername(String userName){// setter methods usually public as setters and may take some parameters,
-                                             // while setting rules and usually have return type
+                                             // while setting rules
         if(userName.length()>8 && userName.length()<15){
             System.out.println("Username accepted");
             this.username=userName;

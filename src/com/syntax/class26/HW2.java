@@ -1,6 +1,7 @@
 package com.syntax.class26;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class HW2 {
     /*
@@ -23,6 +24,13 @@ public class HW2 {
         for (int i = 0; i < cars.size(); i++) {
             System.out.println(cars.get(i));
         }
+
+        System.out.println("--------------------------------------------------------------------");
+        Iterator<String> iterator = cars.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
     }
 }
 

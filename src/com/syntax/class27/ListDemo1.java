@@ -14,7 +14,7 @@ public class ListDemo1 {
         System.out.println(legends.size());
         System.out.println(legends.isEmpty());
         System.out.println(legends.contains("Bahram"));
-        System.out.println(legends.contains("aladdin"));
+        System.out.println(legends.contains("aladdin"));// false since contains() method is case sensitive
         Object[] arr = legends.toArray();
         System.out.println(arr[0]);
         System.out.println(legends);
@@ -24,7 +24,7 @@ public class ListDemo1 {
       List<String>someStudents=new ArrayList<>();
       someStudents.add("Aladdin");
       someStudents.add("Abu");
-      System.out.println(legends.containsAll(someStudents));// its a good method to check if subarralist has all elements of child arraylist
+      System.out.println(legends.containsAll(someStudents));// it/s a good method to check if subArraylist has all elements of super(parent) arraylist
 
     }
 }

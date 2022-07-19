@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ListDemo2 {
     public static void main(String[] args) {
-        List<String> legends = new ArrayList<>();
+        ArrayList<String> legends = new ArrayList<>();//recommended
         legends.add("Aladdin");
         legends.add("Abu");
         legends.add("Jafar");
@@ -15,8 +15,10 @@ public class ListDemo2 {
         moreStudents.add("Raja");
 
         ArrayList<String>allStudents=new ArrayList<>();
-        allStudents.addAll(legends);// opposite to addAll
+        allStudents.addAll(legends);
         allStudents.addAll(moreStudents);
+        System.out.println(allStudents);
+        allStudents.removeAll(legends); //opposite to addAll method
         System.out.println(allStudents);
 
         allStudents.clear();// clears all elements from allStudents arraylist
