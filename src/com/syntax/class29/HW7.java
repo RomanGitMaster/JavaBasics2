@@ -12,6 +12,9 @@ Write a logic to find sum of all integers
         collection.add(5);
         collection.add(3);
         collection.add(8);
+        collection.add(5);
+        collection.add(8);
+        collection.add(3);
         collection.add(6);
         collection.add(5);
         Integer sum=0;
