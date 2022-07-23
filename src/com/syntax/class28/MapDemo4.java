@@ -1,9 +1,6 @@
 package com.syntax.class28;
 
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 public class MapDemo4 {
     //TreeMap implements the Map interface and it is a collection that sorts its keys in the ascending order.
@@ -20,7 +17,24 @@ public class MapDemo4 {
         tmap.put(2, "Data5");
         System.out.println(tmap);
         //Display content using Iterator
+Set<Map.Entry<Integer,String>>enetries=tmap.entrySet();
+        for (Map.Entry<Integer, String> entry : enetries) {
+            System.out.println(entry);
 
+        }
+// display keys of Treemap
+
+        Set<Integer>keys=tmap.keySet();
+        for (Integer key : keys) {
+            System.out.print(key+" ");
+
+        }
+        System.out.println();
+        Collection<String>values=tmap.values();
+        for (String value : values) {
+            System.out.print(value+" ");
+
+        }
 
     }
 }

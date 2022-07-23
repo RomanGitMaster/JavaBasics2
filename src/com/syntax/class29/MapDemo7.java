@@ -18,6 +18,7 @@ public class MapDemo7 {
         Where Entry is an interface that is inside the Map interface( check Room interface example )
          */
         Set<Map.Entry<String, Double>> entries = fruit.entrySet();
+
         //if key contains letter "e" AND if its price is greater than 2.0 we
         entries.removeIf(entry->entry.getKey().contains("e")&& entry.getValue()>2.0);
         System.out.println(fruit);

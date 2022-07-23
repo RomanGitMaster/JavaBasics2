@@ -14,6 +14,10 @@ public class MapDemo5 {
         fruit.put("Banana", 2.0);
         fruit.put("Peach", 3.5);
 
+
+
+
+
         Set<String> keys = fruit.keySet();
         //NOT AN OPTION IF WE MODIFYING SIZE
        /* for (String key : keys) { // we cannot remove items or modify with enhanced for loop

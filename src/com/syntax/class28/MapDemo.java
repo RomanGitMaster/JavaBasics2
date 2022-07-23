@@ -13,6 +13,7 @@ public class MapDemo {
         grocieries.put("apple", 1);
         grocieries.put("fish", 25);
 
+
         System.out.println(grocieries.get("milk")); // to get value of milk we write element.get(key)
         System.out.println(grocieries.get("fish"));
 

@@ -18,7 +18,7 @@ public class HW4 {
         }
 
         void display(){
-            System.out.println("Student name and id are: "+name+" "+id);
+            System.out.println("Student name "+name);
         }
 
     public static void main(String[] args) {
@@ -31,7 +31,6 @@ public class HW4 {
             student.display();
         }
 
-        //SECOND SOLUTION
 
     }
 }

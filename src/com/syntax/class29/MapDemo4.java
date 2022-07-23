@@ -17,9 +17,9 @@ public class MapDemo4 {
         //iter-> shorcut for writing for each loop under specified condition like above
 
         for(Map.Entry<String,Double> entry:entries){// the method we use to return all the entries is entrySet() and we
-        //put it inside the set, and then we specify what type of entries("Map.Entry")and then all the entries types inside
-        //the Map(keys and values) .And it returns us it in a form of a set, and once we have a set we can do the loop,
-        // iterator and so on
+        //put it inside the set in variable entries, and then we specify what type of entries("Map.Entry")and then all
+        // the entries types inside the Map(keys and values) .And it returns us it in a form of a set, and once we have
+        // a set we can do the loop, iterator and so on
             System.out.println("Entry - "+entry);
         }
     }

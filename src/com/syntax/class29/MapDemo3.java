@@ -18,7 +18,8 @@ public class MapDemo3 {
             System.out.println("key= "+key);
         }
         //ArrayList<Double>values= (ArrayList<Double>) fruit.values();// we may get the error at runtime for down-casting
-        Collection<Double>values=fruit.values();
+        Collection<Double>values=fruit.values();//we applying method.values() which is [part of Collection so we put it in
+                                               // a variable of Collection with specified <> data types
         for(Double value:values){
             System.out.println("Value = "+value);
         }

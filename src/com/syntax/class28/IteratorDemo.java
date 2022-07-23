@@ -34,7 +34,7 @@ public class IteratorDemo {
 
         //System.out.println(iterator.hasNext());
         //System.out.println(iterator.next());
-        //System.out.println(iterator.hasNext());// no elements left
+        //System.out.println(iterator.hasNext());// no elements left after this one
         //System.out.println(iterator.next()); error will occur since we cannot get next element
 
        /*

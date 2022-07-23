@@ -14,6 +14,7 @@ public class SetDemo5 {
         fruit.add("Orange");
         System.out.println(fruit);
 
+
         System.out.println("****************");
         Iterator<String> iterator= fruit.iterator();
         while (iterator.hasNext()){

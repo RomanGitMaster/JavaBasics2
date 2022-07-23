@@ -12,7 +12,7 @@ public class MapDemo2 {
         groceries.put("apple", 1);
         groceries.put("fish", 25);
         groceries.replace("eggs",null);
-        groceries.put("eggs", 16);
+        groceries.put("eggs", 16);// key duplicates are not allowed so this one just overwrites value for previous one
         System.out.println(groceries);
 
         Set<String> key=groceries.keySet();

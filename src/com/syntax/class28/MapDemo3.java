@@ -11,9 +11,10 @@ public class MapDemo3 {
         lmap.put(10, "Terrna");
         lmap.put(15, "Eden");
         lmap.put(19, "Matt");
-        //lmap.put(null,null);// it can contain null key and value
+        lmap.put(null,null);// it can contain null key and value
         //lmap.put(null,"bro");//but it not allows duplicates, it will overwrite the value
        //lmap.put(20,"bro");//but it can contain duplicate values if keys are diferent
+
 
         System.out.println("LinkedHashMap before modification" + lmap);
         System.out.println("Is Employee ID 15 exists: " + lmap.containsKey(15));

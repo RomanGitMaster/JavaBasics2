@@ -2,11 +2,12 @@ package com.syntax.class29;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 //HOW WE CAN REMOVE THE ELEMENTS FROM A MAP BASES ON A KEYS AND VALUES USING ITERATOR
 public class MapDemo8 {
     public static void main(String[] args) {
-        HashMap<String, Double> fruit = new HashMap<>();
+        HashMap<String, Double> fruit = new LinkedHashMap<>();
         fruit.put("Apple", 1.0);
         fruit.put("Orange", 2.5);
         fruit.put("Kiwi", 1.8);
