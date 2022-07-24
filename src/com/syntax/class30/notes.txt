@@ -1,0 +1,40 @@
+Maps in Java:
+   is an interface in java that allows to store key-value pairs.
+
+   There are many types of Map Interface as sets but we will only discuss 3 of them:
+   1) HashMap; 2)LinkedHashMap; 3)TreeMap;
+
+   HashMap:(just like with HashSet)
+     Upside: it is fastest when it comes to insert and retrieve the data.
+     Downside: Insertion order is not maintained.
+
+   LinkedHashMap:(just like with LinkedHashSet)
+     Upside: Insertion order is maintained.
+     Downside: Insertion speed is comparable to HashSet but the retrieval speed is the slowest( it has to go through many
+                 connected memory nods thats why insertion speed is slow).
+
+   TreeMap:(just like with TreeSet)
+     Upside: The data is stored in the sorted form( it means whenever we insert new value th sorting happens at the same moment,
+                        which means insertion speed will be very slow, each element that we insert first have to locate it's proper position
+                        where it should be stored )
+     Downside: Insertion speed is slow. Retrieval speed is better than LinkedHashMap, but slower than HashMap
+   HashTable:
+     its old and slow but provide thread safety.
+     =====================================================================================================================
+ Important Note:
+   We can use three methods to get the data from a map
+   1)EntrySet:key,value store inside an object of type Map. we can use getKey() method on this object to get a key of that entry and getValue()
+    to get value of that entry
+   2) keySet() :it will return all the keys from a map in the form of a set
+   3) value(): It will return us all the values from a map in the form of a collection.
+   ======================================================================================================================
+FileHandling in java:
+    We need to have below three things in order to read/write a file Manually.
+    1) Path of the file that we want to read/write
+    2) we need to navigate to that file.
+    3) we need to have a software installed on our computers to interact with that file.
+
+    We need to have below three things in order to read/write a file Manually.
+    1) Path of a file we can store inside a String
+    2) we can use the FIleInputStream/FileOutputStream class to navigate to that folder.
+    3) we use a specific java class that can handle that file type

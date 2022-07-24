@@ -19,15 +19,13 @@ Retrieve all keys and values from a Best Buy map using EntrySet.
         bestBuy.put(7637847,"Phone");
         bestBuy.put(7251847,"Console");
 
+        // for(Map.Entry<Integer,String>entry:bestBuy.entrySet()){
+        // System.out.println(entry.getKey()+":"+entry.getValue());
+        // }
         Set<Map.Entry<Integer,String>> entries=bestBuy.entrySet();
         for (Map.Entry<Integer, String> entry : entries) {
             System.out.println(entry.getKey()+":"+entry.getValue());
         }
-
-
-
-
-
 
     }
 }

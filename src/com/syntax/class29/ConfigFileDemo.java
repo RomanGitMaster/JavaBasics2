@@ -19,7 +19,7 @@ public class ConfigFileDemo {
         // at path, and then we will be able to read the data from there
 
         //3 -we need to have special software that understands that file that we can use to open and edit that file
-        Properties properties=new Properties(); // clss that will helpt to read the files
+        Properties properties=new Properties(); // class that will help to read the files
         //loading all the data from the file inside the properties
         properties.load(fileInputStream);
         // and here we will see the data from the file

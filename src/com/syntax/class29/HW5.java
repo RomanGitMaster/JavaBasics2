@@ -17,6 +17,8 @@ John Smith=$100000
         employee.put("Sameer Theman",250000);
         Integer max2 = 0;
         String max1="";
+
+        //for(Map.Entry<String,Integer>entry:employee.entrySet()){}
         Set<Map.Entry<String,Integer>> entries=employee.entrySet();
         for (Map.Entry<String, Integer> entry : entries) {
 

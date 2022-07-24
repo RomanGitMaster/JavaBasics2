@@ -16,6 +16,10 @@ Print all values from a country map using for each loop and iterator.
         list.put("Turkey", "Ankara");
         list.put("Poland", "Warsaw");
         list.put("Britain", "London");
+       /* for(Map.Entry<String,String> entry: list.entrySet()){
+         System.out.println("entry key = " + entry.getKey()+"entry value = " +entry.getValue());
+         //shorter way to write a for each loop
+        */
 
         System.out.println("All entries with for loop: ");
         Set<Map.Entry<String, String>> entries = list.entrySet();
@@ -23,9 +27,14 @@ Print all values from a country map using for each loop and iterator.
             System.out.println(entry);
         }
         System.out.println();
+
+
+
+
         System.out.println("All entries with iterator: ");
         Iterator<Map.Entry<String, String>> iterator = list.entrySet().iterator();
         while (iterator.hasNext()) {
+            //System.out.println("entry.getKey()= " + entry.getKey()+" value ="+ entry.getValue());
             System.out.println(iterator.next());
         }
 

@@ -18,7 +18,7 @@ Print your map
         buildingMap.put(2,"Syntax");
         buildingMap.put(3,"Abrakadabra");
         buildingMap.put(4,"Durara");
-        buildingMap.put(3,"Mcdonalds");
+        buildingMap.put(3,"Mcdonalds");// it will override the same key-value element but will keep index of fist element, since insertion order is maintained and duplicates are not allowed
         buildingMap.put(5,"Microsoft");
         buildingMap.put(7,"Google");
         System.out.println(buildingMap.size());

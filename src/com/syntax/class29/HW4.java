@@ -22,12 +22,24 @@ class Person {
         this.lastName = lastName;
         this.age = age;
         this.salary = salary;
-        getInfo();
+        toString();
     }
 
+    @Override
+    public String toString() {// type toString and generate by wizard method to return all the values of the instance variables
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", salary=" + salary +
+                '}';
+    }
+/*
     void getInfo() {
         System.out.println(name + " " + lastName + " " + age + " has salary " + salary + " $");
     }
+
+ */
 }
 
 class TestPerson {
@@ -43,9 +55,5 @@ class TestPerson {
     }
 
 }
-
-
-
-
 
 

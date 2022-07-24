@@ -23,5 +23,6 @@ Write a logic to find sum of all integers
         }
         System.out.println(sum);
 
+
     }
 }
